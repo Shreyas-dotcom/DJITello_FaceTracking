@@ -10,4 +10,4 @@ Ibraries Required:
   
 You will need a DJI Tello Drone to do this.
 
-Video: https://www.youtube.com/watch?v=URSCmWMIkE4&t=156s
+Video: https://www.youtube.com/watch?v=URSCmWMIkE
