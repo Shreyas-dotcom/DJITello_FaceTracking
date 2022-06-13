@@ -19,7 +19,6 @@ Values in 100 to -100
 # By Shreyas Sharma
 # ©2021 - Coded on May-1 2021
 # SS-Corp™ Tetravaal© Robotics
-# Special Thanks to Shalaw for inspiring the new changes
 import cv2
 import numpy as np
 from djitellopy import tello
@@ -64,25 +63,23 @@ def findFace(img):
         command3 = w
         command4 = h
 
-        def movement():
-            if command1 > 0:
-                print("Drone Movement: Right")
-            else:
-                print("Drone Movement: Left")
-            if command2 > 0:
-                print("Drone Movement: Forward")
-            else:
-                print("Drone Movement: Backward")
-            if command3 > 0:
-                print(" Drone Movement: Up")
-            else:
-                print("Drone Movement: Down")
-            if command4 > 0:
-                print("Drone Movement: Yaw Right")
-            else:
-                print("Drone Movement: Yaw Left")
+        if command1 > 0:
+            print("Drone Movement: Right")
+        else:
+            print("Drone Movement: Left")
+        if command2 > 0:
+            print("Drone Movement: Forward")
+        else:
+            print("Drone Movement: Backward")
+        if command3 > 0:
+            print(" Drone Movement: Up")
+        else:
+            print("Drone Movement: Down")
+        if command4 > 0:
+            print("Drone Movement: Yaw Right")
+        else:
+            print("Drone Movement: Yaw Left")
 
-        print(movement)
 
     if len(myFaceListArea) != 0:
         i = myFaceListArea.index(max(myFaceListArea))
