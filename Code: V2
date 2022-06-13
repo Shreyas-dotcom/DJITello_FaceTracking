@@ -19,6 +19,8 @@ Values in 100 to -100
 # By Shreyas Sharma
 # ©2021 - Coded on May-1 2021
 # SS-Corp™ Tetravaal© Robotics
+# Special Thanks to Shalaw for inspiring the new movement calculation algorithm
+
 import cv2
 import numpy as np
 from djitellopy import tello
